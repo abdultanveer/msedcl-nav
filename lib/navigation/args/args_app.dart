@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:msedcl/navigation/home_screen.dart';
-import 'package:msedcl/navigation/pass_args_screen.dart';
+import 'package:msedcl/navigation/args/home_screen.dart';
+import 'package:msedcl/navigation/args/pass_args_screen.dart';
 
 import 'ScreenArguments.dart';
 import 'extract_args_screen.dart';

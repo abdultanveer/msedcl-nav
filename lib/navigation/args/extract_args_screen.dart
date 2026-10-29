@@ -2,7 +2,7 @@
 // the ModalRoute.
 
 import 'package:flutter/material.dart';
-import 'package:msedcl/navigation/ScreenArguments.dart';
+import 'package:msedcl/navigation/args/ScreenArguments.dart';
 
 class ExtractArgumentsScreen extends StatelessWidget {
   const ExtractArgumentsScreen({super.key});

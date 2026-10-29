@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:msedcl/navigation/ScreenArguments.dart';
-import 'package:msedcl/navigation/extract_args_screen.dart';
-import 'package:msedcl/navigation/pass_args_screen.dart';
+import 'package:msedcl/navigation/args/ScreenArguments.dart';
+import 'package:msedcl/navigation/args/extract_args_screen.dart';
+import 'package:msedcl/navigation/args/pass_args_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
