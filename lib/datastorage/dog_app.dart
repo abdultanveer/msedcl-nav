@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:msedcl/datastorage/dog_dao.dart';
 import 'package:msedcl/model/dog.dart';
+import 'package:sqflite/sqflite.dart';
 
 
 var dogDao = new DogDao();
