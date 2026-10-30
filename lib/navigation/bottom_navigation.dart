@@ -9,7 +9,9 @@ class BottomNavigationBarExampleApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: BottomNavigationBarExample());
+    return const MaterialApp(
+        home: BottomNavigationBarExample(),
+    );
   }
 }
 
@@ -43,7 +45,9 @@ class _BottomNavigationBarExampleState
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('BottomNavigationBar Sample')),
+      appBar: AppBar(title: const Text('BottomNavigationBar Sample',
+        style: TextStyle(fontFamily: 'Redaction'),
+      )),
       //drawer: ,
       body: Center(child: _widgetOptions.elementAt(_selectedIndex)),
       bottomNavigationBar: BottomNavigationBar(
