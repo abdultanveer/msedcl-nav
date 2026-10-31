@@ -17,6 +17,10 @@ class CounterApp extends StatefulWidget {
   _CounterAppState createState() => _CounterAppState();
 }
 
+int add(int a, int b){
+  return a + b;
+}
+
 class _CounterAppState extends State<CounterApp> {
   final Counter counter = Counter();
 
